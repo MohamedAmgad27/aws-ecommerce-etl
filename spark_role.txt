@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:PassRole"
+      ],
+      "Resource": "arn:aws:iam::863063109253:role/service-role/AWSGlueServiceRole-Ecommerce"
+    }
+  ]
+}
+
+
+Role Name:
+GlueNotebookPassRole
